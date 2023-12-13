@@ -8,8 +8,7 @@ const choice2El = document.querySelector('.choice2');
 
 let currentNumber = 0;
 let mbti = 'empty';
-// 코딩 1:8 웹 개발 왕 초보 // 수강생 김현덕
-// 2023-12-13 22:34
+
 function renderQustion() {
   if (currentNumber === questions.length - 1) {
     showResultPage();
